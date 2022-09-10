@@ -1,0 +1,35 @@
+---
+export interface Props {
+  title: string
+  date: string
+};
+
+const { title, date } = Astro.props;
+---
+
+<section class="header">
+  <h1 class="header-title">{title}</h1>
+  <h4 class="metadata">Terakhir Diubah : {date}</h4>
+  <hr>
+</section>
+
+<style>
+  .header {
+    padding-top: 2rem;
+  }
+
+  .header-title {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+  }
+
+  .metadata {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+  }
+</style>
