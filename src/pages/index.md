@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-title: Kebijakan Privasi
+title: Kebijakan Privasi - PrismaKu
 date: 10 September 2022
 ---
 

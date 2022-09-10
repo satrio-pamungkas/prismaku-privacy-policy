@@ -1,9 +1,9 @@
 {
   "name": "prismaku-privacy-policy",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
