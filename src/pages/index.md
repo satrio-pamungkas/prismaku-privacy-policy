@@ -20,11 +20,11 @@ Sebagai aplikasi yang dikembangkan oleh Warga Negara Indonesia serta menjadi bas
 
 ## Data Pribadi yang kami kumpulkan
 Kami mengumpulkan dan menyimpan data serta informasi yang pengguna berikan ketika menggunakan, mengakses, serta menjalankan berbagai layanan, fitur, informasi yang tersedia pada aplikasi PrismaKu yang disebut dengan (**“Data Pribadi”** atau **“Data Pribadi dan Data Privasi”**) namun tidak terbatas pada nama lengkap anak, nama lengkap orang tua, tanggal lahir anak, kelas anak, alamat surel orang tua, username dan kata sandi.
-## 1. Data Pribadi yang pengguna berikan
+### 1. Data Pribadi yang pengguna berikan
 Pengguna memberikan data pribadi namun tidak terbatas pada nama lengkap anak, tanggal lahir anak, tanggal lahir anak, nama lengkap orang tua, kelas anak, alamat surel orang tua, username dan kata sandi ketika mendaftar pada sistem PrismaKu
-## 2. Data yang muncul selama penggunaan
+### 2. Data yang muncul selama penggunaan
 Selama proses penggunaan aplikasi berlangsung, terdapat data-data yang mungkin dapat bersifat pribadi muncul secara tidak langsung sesuai dengan proses bisnis dari sistem PrismaKu, mencakup namun tidak terbatas pada riwayat waktu penggantian kata sandi, riwayat dan akumulasi koin, riwayat dan akumulasi poin, riwayat dan kepemilikan karakter, pengaturan pengguna yang dimodifikasi dari setelan awal, riwayat pengaksesan fitur-fitur yang telah selesai dan memperoleh koin serta rekaman suara dalam fitur yang dapat diketahui oleh pengguna
-## 3. Data Pribadi yang kami kumpulkan
+### 3. Data Pribadi yang kami kumpulkan
 Kami berhak mengumpulkan dan menyimpan data-data pengguna (selengkapnya lihat bagian **“Penggunaan Data Pribadi”**) dari sistem PrismaKu terhadap data-data pribadi berikut :
 - Data pribadi yang bersifat privasi dan pengguna telah berikan namun tidak terbatas pada nama lengkap anak, tanggal lahir anak, tanggal lahir anak, nama lengkap orang tua, kelas anak, alamat surel orang tua, username dan kata sandi
 - Data yang muncul selama penggunaan namun tidak terbatas pada wayat waktu penggantian kata sandi, riwayat dan akumulasi koin, riwayat dan akumulasi poin, riwayat dan kepemilikan karakter, pengaturan pengguna yang dimodifikasi dari setelan awal, riwayat pengaksesan fitur-fitur yang telah selesai dan memperoleh koin  serta rekaman suara dalam fitur yang dapat diketahui oleh pengguna

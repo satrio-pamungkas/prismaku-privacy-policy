@@ -8,7 +8,7 @@ import Logo from '/Logo.png';
       <img src={Logo} alt="Logo PrismaKu"/>
     </a>
     <ul>
-      <li>
+      <li class="navbar-list">
         <a href="#">Kebijakan Privasi</a>
       </li>
     </ul>
@@ -46,11 +46,14 @@ import Logo from '/Logo.png';
     align-items: center;
   }
 
-  .navbar-container li {
+  .navbar-container .navbar-list {
     padding-left: 1rem;
+    font-size: var(--p-normal);
+    margin-block-start: 0rem;
+    line-height: 0rem;
   }
 
-  .navbar-container ul li a {
+  .navbar-container ul .navbar-list a {
     text-decoration: none;
     color: black;
   }

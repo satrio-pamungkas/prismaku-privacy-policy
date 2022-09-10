@@ -1,6 +1,7 @@
 ---
 import Navbar from '../components/Navbar.astro';
 import Header from '../components/Header.astro';
+import "@fontsource/inter"
 
 export interface Props {
 	title: string;
@@ -29,14 +30,21 @@ const { frontmatter } = Astro.props;
 </html>
 <style>
 	:root {
+    --h1-responsive: 28px;
+    --h2-responsive: 20px;
+    --h3-responsive: 16px;
+    --p-responsive: 14px;
     --h1-normal: 32px;
-		--color-text: hsl(12, 5%, 4%);
+    --h2-normal: 24px;
+    --h3-normal: 18px;
+    --p-normal: 16px;
+		--color-text: rgb(59, 59, 59);
 		--color-bg: hsl(0, 0%, 100%);
 		--color-border: hsl(17, 24%, 90%);
 	}
 
 	html {
-		font-family: system-ui, sans-serif;
+		font-family: "Inter", sans-serif;
 		font-size: var(--font-size-base);
 		color: var(--color-text);
 		background-color: var(--color-bg);
@@ -52,7 +60,7 @@ const { frontmatter } = Astro.props;
 
   .container {
     margin: 0 auto;
-    width: 75%;
+    width: 70%;
     padding-bottom: 4rem;
   }
 
@@ -67,15 +75,51 @@ const { frontmatter } = Astro.props;
 <style is:global>
 	h1 {
 		font-size: var(--h1-normal);
-    color: red;
 	}
 
 	h2 {
-		font-size: var(--font-size-lg);
+		font-size: var(--h2-normal);
+    margin-block-start: 3.5rem;
+    margin-block-end: 0rem;
 	}
 
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-	}
+  h3 {
+    font-size: var(--h3-normal);
+    margin-block-start: 1rem;
+    margin-block-end: 0rem;
+  }
+
+  p {
+    font-size: var(--p-normal);
+    margin-block-start: 0.75rem;
+    line-height: 1.5rem;
+  }
+
+  li {
+    font-size: var(--p-normal);
+    margin-block-start: 0.75rem;
+    line-height: 1.5rem;
+  }
+
+  @media only screen and (max-width: 576px) {
+    h1 {
+      font-size: var(--h1-responsive);
+	  }
+
+    h2 {
+      font-size: var(--h2-responsive);
+    }
+
+    h3 {
+      font-size: var(--h3-responsive);
+    }
+
+    p {
+      font-size: var(--p-responsive);
+    }
+
+    li {
+      font-size: var(--p-normal);
+    }
+  }
 </style>
